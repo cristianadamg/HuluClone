@@ -1,0 +1,206 @@
+/* Media Queries */
+@media(max-width: 768px) {
+    #header {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 90vh;
+    }
+
+    header .header-content {
+        margin-top: 3.6rem;
+        text-align: center;
+    }
+
+    .p-lead {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 8.5rem;
+        margin: 1rem 0 0.3rem 0;
+        padding-top: 0.04rem;
+    }
+
+    .login-btn {
+        font-size: 0.84rem;
+    }
+
+    .h-text-1 {
+        font-size: 1.15rem;
+    }
+
+    .h-text-2 {
+        display: none;
+    }
+
+    .btnFreeTrial {
+        padding: 0.9rem 1.9rem;
+    }
+
+    #sub-header {
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        text-align: center;
+        height: 44vh;
+    }
+
+    #sub-header .logos img {
+        display: block;
+        width: 17rem;
+        margin: auto;
+    }
+
+    #sub-header .sub-content h1 {
+        font-size: 1.4rem;
+    }
+
+    #sub-header .sub-content {
+        margin-bottom: 0 !important;
+    }
+
+    .btn-offer {
+        padding: 0.9rem 1.7rem;
+        margin-top: -6rem;
+    }
+
+    .content-about {
+        padding: 0 0.4rem;
+        margin: 2.5rem 0;
+    }
+
+    .text-xl {
+        font-size: 1.9rem;
+        line-height: 1;
+        padding-top: 0.8rem;
+    }
+
+    .sub-text {
+        font-size: 1rem;
+    }
+
+    .categories .covers .mobileSize {
+        font-size: 0.8rem !important;
+    }
+
+    .categories .covers .headingMobile {
+        font-size: 1rem;
+    }
+
+    .categories .covers {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1.1rem;
+    }
+
+    .categories .covers > div {
+        height: 300px; 
+        width: 180px;
+    }
+
+    #live {
+        background: #151516;
+        padding: 1.5rem 0.8rem;
+    }
+
+    .live-border {
+        padding: 3.4rem 1rem;
+    }
+
+    .live-border .colored-text {
+        font-size: 0.8rem;
+        opacity: 0.9;
+        padding-bottom: 0.5rem;
+    }
+
+    .live-border .text-xl {
+        font-size: 2.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .live-border .sub-text {
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .live-border .legal-text {
+        line-height: 1.1;
+        font-size: 0.74rem;
+        padding-bottom: 0.7rem;
+        color: #fff !important;
+    }
+
+    #liveSports {
+        background: url('../img/live-sports-small.jpg') no-repeat center center/cover;
+    }
+
+    .liveSports-content {
+        top: 120px; 
+        left:  50px;
+    }
+
+    .liveSports-content h1 {
+        font-size: 2.3rem !important;
+        padding-bottom: 0.5rem;
+    }
+    
+    .liveSports-content .sub-text {
+    font-size: 1.1rem;
+    }
+
+    .liveSports-content .legal-text {
+        font-size: 0.62rem;;
+    }
+
+    .liveSports-content .linkUI {
+        font-size: 0.8rem;
+    }
+    
+    #footer .footer-lists {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: start;
+        height: 100%;
+        margin-bottom: 1.8rem;
+    }
+
+    .modal .modal-box {
+        height: 600px;
+        width: 350px;
+    }
+}
+
+@media (max-height: 500px) {
+    #header {
+        height: 100vh;
+    }
+
+    .logo {
+        width: 11rem;
+    }
+
+    .h-text-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {  
+    .categories .covers {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1.1rem;
+    }
+
+    #sub-header .logos img {
+        width: 12.2rem;
+    }
+
+    #sub-header .sub-content h1 {
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding: 0.3rem 0 0.1rem 0;
+    }
+
+    #sub-header .sub-links .btn-offer {
+        font-size: 0.7rem; 
+    }
+}
